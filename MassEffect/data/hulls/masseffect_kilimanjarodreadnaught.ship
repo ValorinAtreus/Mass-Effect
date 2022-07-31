@@ -1,0 +1,271 @@
+{
+  "hullName": "Kilimanjaro",
+  "hullId": "masseffect_kilimanjarodreadnaught",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/masseffect_kilimanjarodreadnaught.png",
+  "style": "HIGH_TECH",
+  "height": 1109,
+  "width": 333,
+  "center": [166.5, 546.5],
+  "collisionRadius": 590,
+  "shieldCenter": [1.5, -0],
+  "shieldRadius": 570,
+  "viewOffset": 0,
+  "builtInMods": [
+    "operations_center",
+    "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [153.5, 50]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -0,
+      "locations": [153.5, -50]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [477.5, 10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -0,
+      "locations": [477.5, -10.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [457.5, 58.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -0,
+      "locations": [457.5, -58.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 143,
+      "locations": [-514, 78.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -143,
+      "locations": [-514, -78.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -137,
+      "locations": [-210, -63]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 137,
+      "locations": [-210, 63]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -99.5,
+      "locations": [-28.5, -123.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 99.5,
+      "locations": [-28.5, 123.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -86,
+      "locations": [175.5, -117]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 86,
+      "locations": [175.5, 117]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -73,
+      "locations": [391.5, -81]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 73,
+      "locations": [391.5, 81]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -45,
+      "locations": [309.5, -49]
+    },
+    {
+      "id": "WS0018",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 45,
+      "locations": [309.5, 48.5]
+    },
+    {
+      "id": "WS0019",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -87.5,
+      "locations": [54, -133]
+    },
+    {
+      "id": "WS0020",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 87.5,
+      "locations": [54, 133]
+    },
+    {
+      "id": "WS0021",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -114,
+      "locations": [-120.5, -101]
+    },
+    {
+      "id": "WS0022",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 114,
+      "locations": [-120.5, 101]
+    },
+    {
+      "id": "WS0023",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [428, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-450.5, 123],
+      "length": 125,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-450.5, -123],
+      "length": 125,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -226.5, -15.5,
+    -445.5, -34,
+    -464, -26.5,
+    -543, -29,
+    -541.5, -146.5,
+    -166.5, -167.5,
+    -10.5, -130.5,
+    53, -141,
+    459.5, -84,
+    468, -40,
+    469.5, -17,
+    491.5, -15.5,
+    491.5, 15.5,
+    469.5, 17,
+    468, 40,
+    459.5, 84,
+    53, 141,
+    -10.5, 130.5,
+    -166.5, 167.5,
+    -541.5, 146.5,
+    -543, 29,
+    -464, 26.5,
+    -445.5, 34,
+    -226.5, 15.5
+  ]
+}
