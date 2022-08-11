@@ -1,0 +1,122 @@
+{
+  "hullName": "Agincourt",
+  "hullId": "masseffect_agincourtfrigate",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/masseffect_agincourtfrigate.png",
+  "style": "HIGH_TECH",
+  "height": 220,
+  "width": 98,
+  "center": [48.5, 120.5],
+  "collisionRadius": 127,
+  "shieldCenter": [-9, -0.5],
+  "shieldRadius": 112.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [38, 21.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 90,
+      "angle": -0,
+      "locations": [38, -21.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [3, -0.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [88.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [73.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67, 36.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-67, -36.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-67, 15.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-67, -15.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -3, -2,
+    -29, -5,
+    -117, -7.5,
+    -117.5, -24,
+    -96.5, -25.5,
+    -96.5, -44.5,
+    -2, -43,
+    52.5, -22,
+    53, -11.5,
+    79, -11,
+    96.5, -4.5,
+    96.5, 4.5,
+    79, 11,
+    53, 11.5,
+    52.5, 22,
+    -2, 43,
+    -96.5, 44.5,
+    -96.5, 25.5,
+    -117.5, 24,
+    -117, 7.5,
+    -29, 5,
+    -3, 2
+  ]
+}

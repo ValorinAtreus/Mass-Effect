@@ -1,0 +1,150 @@
+{
+  "hullName": "Brussels",
+  "hullId": "masseffect_brusselsdestroyer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/masseffect_brusselsdestroyer.png",
+  "style": "HIGH_TECH",
+  "height": 322,
+  "width": 93,
+  "center": [46.5, 145.5],
+  "collisionRadius": 190.5,
+  "shieldCenter": [15.5, 0],
+  "shieldRadius": 164,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 235,
+      "angle": 90,
+      "locations": [-25.5, 33.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 235,
+      "angle": -90,
+      "locations": [-25.5, -33.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [32, 11]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -0,
+      "locations": [32, -11]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 235,
+      "angle": -53,
+      "locations": [68, -17.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 235,
+      "angle": 53,
+      "locations": [68, 17.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [105, -8]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [105, 7.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-85.5, 38.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85.5, -38.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-95, 22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-95, -22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -65, -5,
+    -122, -7,
+    -141.5, -7.5,
+    -142.5, -26.5,
+    -106.5, -27,
+    -106, -44,
+    -28.5, -44.5,
+    5, -35,
+    107, -14.5,
+    109, -5.5,
+    136.5, -5.5,
+    136.5, 5.5,
+    109, 5.5,
+    107, 14.5,
+    5, 35,
+    -28.5, 44.5,
+    -106, 44,
+    -106.5, 27,
+    -142.5, 26.5,
+    -141.5, 7.5,
+    -122, 7,
+    -65, 5
+  ]
+}

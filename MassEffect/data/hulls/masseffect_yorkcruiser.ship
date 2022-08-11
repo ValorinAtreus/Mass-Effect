@@ -1,0 +1,151 @@
+{
+  "hullName": "York",
+  "hullId": "masseffect_yorkcruiser",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/masseffect_yorkcruiser.png",
+  "style": "HIGH_TECH",
+  "height": 320,
+  "width": 85,
+  "center": [43, 150],
+  "collisionRadius": 175.5,
+  "shieldCenter": [8.5, -0],
+  "shieldRadius": 164,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [84.5, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -0,
+      "locations": [84.5, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 0,
+      "locations": [112, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 88,
+      "locations": [-31, 35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -88,
+      "locations": [-31, -35]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 149,
+      "locations": [-128, 15]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -149,
+      "locations": [-128, -15]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": 66,
+      "locations": [70, 19.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 210,
+      "angle": -66,
+      "locations": [70, -19.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-136, 31],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-136, -31],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-121.5, 33],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-121.5, -33],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -90.5, -5,
+    -130, -8,
+    -146, -6.5,
+    -147.5, -38,
+    -90, -40.5,
+    -27, -39,
+    137, -11.5,
+    137, 11.5,
+    -27, 39,
+    -90, 40.5,
+    -147.5, 38,
+    -146, 6.5,
+    -130, 8,
+    -90.5, 5
+  ]
+}
